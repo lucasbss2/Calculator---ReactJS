@@ -1,0 +1,48 @@
+button {
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  border-radius: 3rem;
+  margin: 0.3rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.zero {
+  border: none;
+  border-radius: 3rem;
+  width: 8.5rem;
+  background-color: rgb(75, 74, 74);
+  color: white;
+}
+
+.main {
+  background-color: black;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  max-width: 300px;
+}
+
+.operator-gray {
+  background-color: rgb(187, 185, 185);
+}
+
+.number {
+  background-color: rgb(75, 74, 74);
+  color: white;
+}
+
+.operator-orange {
+  background-color: rgb(255, 166, 0);
+  color: white;
+}
+
+.result {
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
